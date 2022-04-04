@@ -72,8 +72,9 @@ class CoolAlertButtons extends StatelessWidget {
     );
 
     final okayBtn = MaterialButton(
+      elevation: 0,
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(30.0),
+        borderRadius: BorderRadius.circular(8.0),
       ),
       color: options!.confirmBtnColor ?? Theme.of(context!).primaryColor,
       onPressed: onTap,
